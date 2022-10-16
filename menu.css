@@ -37,7 +37,7 @@ body{
 }
 .python{
   margin-left: 30px;
-  margin-top: 250px;
+  margin-top: 260px;
   overflow: hidden;
 }
 
@@ -170,13 +170,114 @@ body{
   padding: 50px;
   border: 2px solid #edf567;
   font-size:20px ;
-  color: #fff;
+  color: #c2c2c2;
 }
-
+blockquote{
+  padding: 20px;
+}
 .rodape p{
+  text-align: center;
   padding: 10px;
+}
+.rodape h5{
+  text-align: center;
+  padding: 20px;
 }
 .rodape ul li {
   margin-top: 30px;
 }
+footer {
+  width: auto;
+  height: auto;
+  color: #c2c2c2;
+  margin: 20px;
+}
+footer img{
+  margin-top: 50px;
+  margin-left: 17%;
+}
 
+#python{
+  color:#c2c2c2;
+  padding: 10px;
+  margin-top: 140px;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#python h2{
+  text-align: center;
+}
+#python h3{
+  padding: 20px;
+  text-align: center; 
+}
+
+.jogo_python{
+  margin-top: 20px;
+  width: 100%;
+  height: 670px;
+  border: 2px solid #edf567;
+  align-items: center;
+}
+
+.codigo_python{
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+.botaoEscreva{
+  background-color: rgba(100, 100, 100, 0.692);
+  color: white;
+  text-decoration: none;
+  position: static;
+  font-size: 20px;
+  padding:  10px 30px;
+  transition: all .9s;
+  border-radius: 32px;
+  border: solid 1px #222; 
+}
+
+.botaoEscreva:hover, .botaoEscreva:focus{
+  background-color: rgba(100, 100, 100, 0.692);
+  color: #00e676;
+}
+
+.escreva{
+  display: block;
+  padding-top: 43%;
+  
+}
+.texto_left{
+  position:relative;
+  padding: 45px;
+  margin-bottom: 50px;
+}
+ .texto_left_1 {
+  width:400px;
+}
+.image_rigth{ 
+  float: right;
+  margin-right: 15px;
+}
+#node_js{
+  color: #c2c2c2;
+  margin: 20px;
+  border: 2px solid #edf567;
+  padding: 20px;
+  width: 500px;
+}
+.texto_left_2{
+  margin-top: 20px;
+}
+.login{
+ /* margin: 10px;
+  bottom: 5px;
+  position: relative;
+  padding: 50px;
+  border: 2px solid #edf567;
+  font-size:20px ;*/
+  color: #fff;}/*
+}*comentado para arrumar na proxima vez*/
