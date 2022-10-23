@@ -29,6 +29,7 @@ body{
   background-position: center center;
   background-size: 100px;
   background-repeat: no-repeat;
+  animation-delay: 5000ms;
   animation-name: ampliando;
   position: static;
   animation-duration: 2s;
@@ -129,6 +130,20 @@ body{
   margin-right: 10px;
 }
 
+.midle_img{
+  padding: 10px;
+  width: 500px;
+  height: 250px;
+  font-size: 15px;
+  margin:  auto;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-left: 654px;
+}
+
+/*^^^^^^^^^^^^^^^^^^^arrumar^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 .midle{
   padding: 10px;
   width: 300px;
@@ -203,7 +218,7 @@ footer img{
   margin-top: 140px;
   margin-left: 3%;
   margin-right: 3%;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 30px;
 }
 
@@ -226,24 +241,10 @@ footer img{
 .codigo_python{
   margin-top: -60px;
   padding-left: 10px;
+  width: 300px;
 }
 
-.botaoEscreva{
-  background-color: rgba(100, 100, 100, 0.692);
-  color: white;
-  text-decoration: none;
-  position: static;
-  font-size: 20px;
-  padding:  10px 30px;
-  transition: all .9s;
-  border-radius: 32px;
-  border: solid 1px #222; 
-}
 
-.botaoEscreva:hover, .botaoEscreva:focus{
-  background-color: rgba(100, 100, 100, 0.692);
-  color: #00e676;
-}
 
 .escreva{
   display: block;
@@ -272,12 +273,13 @@ footer img{
 .texto_left_2{
   margin-top: 20px;
 }
-.login{
- /* margin: 10px;
-  bottom: 5px;
-  position: relative;
-  padding: 50px;
+.initial{
+  color: #c2c2c2;
+}
+#java{
+  color: #c2c2c2;
+  margin: 20px;
   border: 2px solid #edf567;
-  font-size:20px ;*/
-  color: #fff;}/*
-}*comentado para arrumar na proxima vez*/
+  padding: 20px;
+  width: 500px;
+}

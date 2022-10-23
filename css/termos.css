@@ -1,0 +1,27 @@
+body {
+    background-color:rgba(0, 0, 0, 0.985);
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+a {
+    color: rgb(207, 82, 82);
+}
+.numeros {
+    margin-left: 10px;
+    list-style: decimal;
+    
+}
+.letras {
+    margin-left: 25px;
+    list-style: lower-alpha;
+    color: rgba(220, 207, 190, 0.948);
+    
+}
+ h2 {
+     color: rgba(153, 205, 50, 0.59);
+    margin-left:10px;
+}
+p {
+    margin-left: 30px;
+}
