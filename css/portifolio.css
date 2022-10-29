@@ -1,0 +1,119 @@
+/*esse @midia e so para arrumar um bug do nav do portifolio */
+@media screen and (max-width:760px) and (max-width: 1024px) {
+  .nav div.main-list-principal ul {
+    flex-direction: column;
+    width: 100%;
+    height: 0px;
+    top: 100px;
+  }
+}
+
+.portifolio {
+  padding: 10px;
+  width: 100%;
+  background-image: url(../imgens/sobre2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.portifolio .comunicado {
+  position: static;
+  padding: 20px;
+  margin: auto;
+  justify-content: center center;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.692);
+  border: 2px solid rgba(0, 0, 0);
+  color: white;
+  margin-top: 170px;
+}
+
+.portifolio .comunicado_2 {
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  justify-content: center center;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.692);
+  border: 2px solid rgba(0, 0, 0);
+  color: white;
+  margin-top: 20px;
+}
+
+.comunicado_2 .jogo {
+  color: #edf567;
+  text-decoration: none;
+}
+
+.comunicado_2 .jogo:hover {
+  color: #00e676;
+  font-size: large;
+}
+
+.comunicado_3 {
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  width: 70%;
+  color: white;
+  margin-top: 20px;
+}
+
+.comunicado_3 a {
+  text-decoration: none;
+  color: #edf567;
+}
+
+.comunicado_3 a:hover {
+  font-size: large;
+  color: #00e676;
+}
+
+.texto_l .texto_2 {
+  color: #c2c2c2;
+  font-size: small;
+}
+
+.texto_1 {
+  margin: 10px;
+}
+
+.texto_2 {
+  margin: 10px;
+}
+
+.lista {
+  list-style: decimal;
+  margin: 25px;
+}
+
+.rodape_2 {
+  margin: auto;
+  bottom: 5px;
+  padding: 50px;
+  border: 2px solid #edf567;
+  font-size: 20px;
+  color: #c2c2c2;
+}
+
+.rodape_2 .email:hover {
+  color: #00e676;
+  font-size: large;
+}
+
+.rodape_2 h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.rodape_2 p {
+  text-align: center;
+  padding: 10px;
+}
+
+.rodape_2 h5 {
+  text-align: center;
+  padding: 20px;
+}

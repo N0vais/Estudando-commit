@@ -168,22 +168,66 @@ footer {
 	text-align: center;
 	background-color: rgb(10, 10, 10,0.600);
 	padding: 20px;
-	border-radius: 20px;
-    color: #fff;
+    color: #c2c2c2;
     margin: 20px;
 }
 
 footer img {
     margin: 50px;
+}
+
+.rodape {
+    margin: 10px;
+    bottom: 5px;
+    position: relative;
+    padding: 50px;
+    border: 2px solid #edf567;
+    font-size: 20px;
+    color: #c2c2c2;
+  }
+
+  .email {
+    color: #edf567;
+    text-decoration: none;
+  }
+
+  .email:hover{
+    color: #00e676;
+    font-size: small;
+  }
+
+  blockquote {
+    padding: 20px;
+  }
+
+.rodape h3 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .rodape p {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .rodape h5 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .rodape ul li {
+    margin-top: 30px;
+  }
+
+.imagem_robox{
     border-radius: 50%;
 }
+
 .copyright {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
 }
-
-
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 .nav{
