@@ -1,15 +1,15 @@
 <?php
-$dbHost = 'Localhost';
-$dbUsername = 'root';
-$dbPassword = '';
-$dbName = 'nine';
 
-$conexao =new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+$print = function($class){
+    if(file_exists('classes/'.$class.'.php')){
+        include_once('classes/'.$class.'.php');
+    }
+};
 
-if($conexao-> connect_erro){
-    echo "erro";
-}else{
-   echo "conectado::::::";
-    print_r('nome');
-}
+    spl_autoload_register($print);
+
+    define('HOST','localhost');
+    define('DATABASE','dev_mirim');
+    define('USER', 'root');
+    define('PASSWORD','');
 ?>

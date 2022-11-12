@@ -28,7 +28,7 @@ body {
   background-position: center center;
   background-size: 100px;
   background-repeat: no-repeat;
-  animation-delay: 5000ms;
+  animation-delay: 1500ms;
   animation-name: ampliando;
   position: static;
   animation-duration: 2s;
@@ -311,4 +311,8 @@ footer img {
 .email {
   color: #edf567;
   text-decoration: none;
+}
+.email:hover{
+  font-size: smaller;
+  color: #00e676;
 }

@@ -172,13 +172,18 @@ class Validator {
     cleanValidations(validations) {
         validations.forEach(el => el.remove());
     }
+
+    
 }
+
 let form = document.getElementById("register-form");
 let submit = document.getElementById("btn-submit");
 let validator = new Validator();
 //evento que dispara as validaçoes
-submit.addEventListener('click', function (e) {
+submit.addEventListener('submit', function (e) {
     e.preventDefault();
     validator.validate(form);
 });
+
 /*VALIDAÇAO DOS CAMPOS ESTAO OK */
+
